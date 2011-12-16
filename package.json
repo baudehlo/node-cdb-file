@@ -1,0 +1,29 @@
+{
+  "author": "Matt Sergeant <helpme@gmail.com> (http://baudehlo.wordpress.com/)",
+  "name": "cdb-file",
+  "description": "Access CDB (Constant Database) files",
+  "keywords": ["fs", "cdb", "djb"],
+  "version": "0.1.0",
+  "homepage": "https://github.com/baudehlo/node-cdb-file/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/baudehlo/node-cdb-file.git"
+  },
+  "main": "cdb-file.js",
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "dependencies": { },
+  "licenses": [ {
+    "type": "MIT"
+  } ],
+  "bugs": {
+    "mail" : "helpme@gmail.com",
+    "url" : "https://github.com/baudehlo/node-cdb-file/issues"
+  },
+  "scripts": { 
+    "install": "node-waf configure build",
+    "test": "./run_tests"
+  }
+}
+
